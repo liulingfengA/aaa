@@ -15,7 +15,6 @@
             <swiper :options="swiperOption">
             <swiper-slide v-for='item of imgList' :key="item.id" >
                 <img class="swiper-img" :src="item  " />
-                <p>{{item}}</p>
             </swiper-slide>
             <div class="swiper-pagination"  slot="pagination"></div>
             </swiper>
@@ -103,11 +102,13 @@ export default {
 }
 .saishi {
     width: 100%;
-    height:50%;
-    background-color: #f0f;
+    height:70vh;
     .swiper-slide{
         // width: 100px;
-        height: 300px;
+        height: 200px;
+    }
+    .swiper-container{
+      background-color:#999;
     }
     .swiper-img{
         width: 100%;

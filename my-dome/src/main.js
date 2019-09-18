@@ -7,8 +7,8 @@ import {Button,NavBar,Icon ,Tabbar,TabbarItem,Tab,Tabs } from "vant"
 import "./assets/css/iconfont.css"
 
 //mock数据
-import "./mock/index.js"
-
+import {mockXHR} from "./mock/"
+mockXHR()
 
 
 // require styles

@@ -10,7 +10,8 @@ module.exports = {
         pathRewrite: {
           '^/api': ''
         }
-      }
-    }
+      },
+    },
+    after:require('./src/mock/mock-server')
   }
 };
