@@ -14,7 +14,11 @@
         },
         methods:{
             goback(){
-                this.$router.go(-1)
+            if (history.length <= 1) {
+				this.$router.push('/')
+                } else {
+                    this.$router.go(-1)
+                }
             },
             gosearch(){
                 // this.$router.push({name:"search"})

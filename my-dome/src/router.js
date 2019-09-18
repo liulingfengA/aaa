@@ -5,8 +5,8 @@ import homeChild from './views/home/homeChild/index.vue'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
-  base: process.env.BASE_URL,
+  mode: 'hash',
+  // base: process.env.BASE_URL,
   routes: [
     {
       path: '/home',
