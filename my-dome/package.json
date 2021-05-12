@@ -13,7 +13,7 @@
     "css-loader": "^3.2.0",
     "mockjs": "^1.0.1-beta3",
     "postcss-loader": "^3.0.0",
-    "swiper": "3.4.1",
+    "swiper": "6.5.1",
     "vant": "^2.2.1",
     "vue": "^2.6.10",
     "vue-awesome-swiper": "^3.1.3",
