@@ -10,9 +10,9 @@
   "dependencies": {
     "axios": "^0.19.0",
     "core-js": "^2.6.5",
-    "css-loader": "^3.2.0",
+    "css-loader": "^6.7.3",
     "mockjs": "^1.0.1-beta3",
-    "postcss-loader": "^3.0.0",
+    "postcss-loader": "^7.0.2",
     "swiper": "3.4.1",
     "vant": "^2.2.1",
     "vue": "^2.6.10",
@@ -21,15 +21,15 @@
     "vuex": "^3.0.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.11.0",
-    "@vue/cli-plugin-eslint": "^3.11.0",
-    "@vue/cli-service": "^3.11.0",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
     "babel-eslint": "^10.0.1",
     "babel-plugin-import": "^1.12.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "less": "^3.0.4",
-    "less-loader": "^5.0.0",
+    "less-loader": "^11.1.0",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
